@@ -1,0 +1,167 @@
+/* using google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family:"Poppins",sans-serif; 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section {
+height: 100vh;
+background-color: #121321;
+width:100% ;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+ .Balls,.Balls2{
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    background: linear-gradient(00deg, rgb(50, 50, 52), rgb(61, 61, 145));
+    border-radius:50% ;
+}
+.Balls{
+    transform: translate(-181px, -122px)
+}
+section .Balls2{
+    transform: translate(181px, 122px)
+}
+.container{
+height: 225px;
+width: 375px;
+position: relative;
+margin-bottom: 190px;
+}
+.card,.back-card{
+    background-image: URL("wonderful\ view.jpeg");
+    width: 100%;
+    height: 100%;
+    background-color:rgba(1, 7, 25, 0.1) ;
+    border-radius: 25px;
+    box-shadow: 0px 25px 45px rgba(0,0,0,0.25);
+    backdrop-filter:blur(25px) ;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.card{
+    background-size: cover;
+}
+.Logo,.chip{
+
+    width: 50px;
+    margin-left:20px ;
+}
+.Logo2{
+    width: 90px;
+    filter:invert(100%);
+}
+.wireless{
+    width: 50px;
+    color: white ;
+    filter: invert(100%);
+}
+.scan{
+    display: flex ;
+    align-items: center;
+    margin-left:20px ;
+}
+.bxs-left-arrow{
+    filter: invert(100%);
+}
+.card_number{
+    color:white;
+    margin-left:40px ;
+    word-spacing: 15px;
+    letter-spacing: 2px; 
+    font-size: 19px;
+}
+.valid_thru{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    color: white;
+    font-size: 7px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.valid_date{
+    font-size: 15px;
+    font-weight: bold;  
+    color: white;
+    letter-spacing: 4px;
+}
+.validation{
+    margin-left: 35px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mezza_background{
+    display: flex;
+    width: 100px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 20px;
+    height: 50px;
+}
+.mezza{
+    width: 80%;
+    height: 100%;
+}
+.mezza_right {
+    position: absolute;
+    bottom: 5px;
+    right: 10px; 
+    width: 100px;
+    height: 50px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.masria,.security{
+    font-size: 7px;
+    color: white;
+}
+
+.black{
+    margin-top: 10px;
+    width: 100%;
+    background-color: black;
+    height: 20%;
+}
+.white{
+    margin-top: 10px;
+    width: 80%;
+    background-color: white;
+    height: 20%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+.white p{
+    color: black;
+    font-weight: 500;
+}
+.conf{
+    margin-top: 8px;
+    margin-right:20px;
+}
+.arabic{
+    direction: rtl;
+    color: white;
+    font-size: 7px;
+}
+.english{
+    color: white;
+    padding-left: 10px;
+    font-size: 7px; 
+}
